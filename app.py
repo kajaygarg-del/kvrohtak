@@ -15,7 +15,7 @@ import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
 import io
-from fastapi.middleware.cons import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 app=FastAPI(title="MINST CNN API")
 
 app.add_middleware(
