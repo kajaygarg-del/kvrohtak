@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1BHyHIeIAHupZeCwfn_NdWxePu4cuciez
 """
 
-pip install fastapi uvicorn torch torchvision pillow
 # FastAPI for MNIST CNN (PyTorch)
 
 from fastapi import FastAPI, File, UploadFile
